@@ -1,2 +1,157 @@
-body { 
-background-color: blanchedalmond}
+html{
+    background-color: #CCC;
+    
+}
+*{
+    font-family: 'Lato';
+
+    
+}
+body {
+    max-width: 960px;
+    margin: 30px auto;
+    
+    background-color: white;   
+}
+
+
+header {
+    color: white;
+    font-size: 25px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(http://img.taste.com.au/gOpVgvz8/taste/2016/11/classic-chewy-brownie-102727-1.jpeg);    
+    background-size: cover;
+    background-position: center;
+    height: 400px;   
+}
+
+h1{
+
+    font-size: 50px;
+    line-height: 90%;
+    background-color: whitesmoke;
+    color: saddlebrown;
+    border-radius:25px;
+    letter-spacing: -4px;
+    position: absolute;
+    padding: 10px;
+    font-weight: 400;
+    top: 100px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+header > p {   
+    position: absolute;
+    top: 250px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+nav > ul {
+    text-transform: uppercase;
+    font-weight: 500;
+    position: absolute;
+    font-size: 35px;
+    list-style: none;
+  
+    top: 350px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0;
+}
+nav li {
+    display: inline-block; 
+    margin-left:10px;
+}
+a {
+     text-decoration: none;     
+}
+ .nav:link, .nav:visited {
+    color:white
+}
+
+h2 {
+    left: 50%;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 60px;
+    border-bottom: 1px dashed #CCC;
+    padding-bottom: 40px;
+}
+article {
+    padding:0 30px;   
+}
+
+
+h3 { 
+    font-size: 28px;
+    text-align: center;
+    letter-spacing: 3px;
+}
+.details, .description {
+    text-align: center
+}
+
+    
+.brownieblogpost > img {
+    margin-top: 20px;
+    width: 40%;
+    float: left;
+    
+}
+#brownietable{ 
+    text-align: center;
+}
+th {
+    background-color: #CCC;
+}
+content {
+    width: 55%;
+    float: right;
+    padding-bottom: 50px;
+}
+footer {
+    padding: 25px;
+    margin-top: 50px:;
+    clear: both;
+    width: 100%;
+    border-top: 1px dashed #CCC;
+}
+.footerlist > li{
+    display: inline-block;
+    padding: 0 30px;
+    border-left: 1px solid black;
+}
+
+h4 { 
+    font-size: 22px;
+}
+
+#brownierecipeimg{
+    float: left;
+    width: 40%;
+    margin-top: 30px;
+}
+
+#ingredients {
+    float: right;
+    widows: 70%;
+   
+}
+
+#directions {
+    clear:both;
+    padding-bottom: 30px}
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+

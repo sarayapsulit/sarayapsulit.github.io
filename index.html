@@ -1,54 +1,36 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>The Brownie Blog</title>
         <link rel="stylesheet" href="style.css" type="text/css">
+        <link href='https://fonts.googleapis.com/css?family=Dancing+Script' rel='stylesheet' type='text/css'>
+
+        <title>The Brownie Blog</title>
+        
     </head>
     <body>
         <header>
-            <div>
-                <h1>The Brownie Blog</h1>
-                <p>
-                    One-stop-shop for all your brownie cravings
-                </p>
-            </div>
+            <h1>the<br>brownie<br>blog</h1>
+            <p> one-stop-shop for all your brownie cravings</p>
             <nav>
                 <ul>
-                    <li>
-                        <a href="index.html">Home</a>
-                    </li>
-                    <li>
-                        <a href="recipes.html">Recipes</a>
-                    </li>
+                    <li><a class="nav" href="index.html">Home</a></li>
+                    <li><a class="nav" href="recipes.html">Recipes</a></li>
                 </ul>
             </nav>
-            <div>
-                <img src="brownie-01.jpg" alt="brownie1">
-            </div>
-            
         </header>
-        <section name="blogentries">
-            <div>
-                <h2>Blog Posts</h2>
-            </div>
-            <div>
-                <div>
-                    <h3>
-                        CAKEY, CHEWY, FUDGY
-                    </h3>
-                    <p>
-                        <em>posted by</em> brownielover <em>on</em> April 29, 2017
-                    </p>
-                    <p>
-                        <em>Everyone loves brownies but some like them nice dense and rich, while others like a more soft and fluffy texture.</em>
-                    </p>
-                </div>
-                <div>
-                    <img src="brownie-02.jpg" alt="brownie2">
-                    <p>
-                        With so many types of brownies, the question is "how does a baker achieved their desired texture?" The trick is to have different proportions of fat (i.e. butter and chocolate), sugar, flour and eggs.
-                    </p>
-                    <table border="1">
+        <section name="blogentry" class="blogentry">
+            <h2>Blog Posts</h2>
+            <article class="brownieblogpost">
+                <h3>CAKEY, CHEWY, FUDGY</h3>
+                <div class="details">
+                        <p><em>posted by</em> brownielover <em>on</em> April 29, 2017</p>
+                    <p><em>Everyone loves brownies but some like them nice dense and rich, while others like a more soft and fluffy texture.</em></p>
+                </div>  
+                
+                    <img   src="brownie-02.jpg" alt="brownieblogpost">
+                <content class="brownieblogpost">
+                    <p> With so many types of brownies, the question is "how does a baker achieved their desired texture?" The trick is to have different proportions of fat (i.e. butter and chocolate), sugar, flour and eggs.</p>
+                    <table id="brownietable" border="1">
                         <tr>
                             <th></th>
                             <th>Cakey</th>
@@ -85,23 +67,22 @@
                             <td>more white sugar than cakey</td>
                         </tr>
                     </table>
-                </div>
-            </div>     
+                    </content>
+            </article>   
         </section>
-        <br>
-        <section>
+   
+        <footer>
             <a href="http://www.mybakingaddiction.com/amazing-brownies-a-giveaway/">
-                <h3>other brownie recipes</h3>
-            </a>
-            http://www.mybakingaddiction.com/amazing-brownies-a-giveaway/
+                <h3>other brownie recipes</h3> </a>
+        
             <p> The site looks good because:</p>
-            <ul>
+            <ul class="footerlist">
                 <li>It has colors</li>
                 <li>The content is organized and well spaced</li>
                 <li>The fonts have changed</li>
             </ul>
             
-        </section>
+        </footer>
         
     </body>
 </html>

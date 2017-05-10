@@ -1,47 +1,32 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" href="style.css" type="text/css">
+         <link href='https://fonts.googleapis.com/css?family=Dancing+Script' rel='stylesheet' type='text/css'>
         <title>Recipes | The Brownie Blog</title>
     </head>
     <body>
-       <header>
-            <div>
-                <h1>The Brownie Blog</h1>
-                <p>
-                    One-stop-shop for all your brownie cravings
-                </p>
-            </div>
+          <header>
+            <h1>the<br>brownie<br>blog</h1>
+            <p> one-stop-shop for all your brownie cravings</p>
             <nav>
                 <ul>
-                    <li>
-                        <a href="index.html">Home</a>
-                    </li>
-                    <li>
-                        <a href="recipes.html">Recipes</a>
-                    </li>
+                    <li><a class="nav" href="index.html">Home</a></li>
+                    <li><a class="nav" href="recipes.html">Recipes</a></li>
                 </ul>
             </nav>
-            <div>
-                <img src="brownie-01.jpg" alt="brownie1">
-           </div>
         </header>
-        <section>
-            <div>
-                <h2>Recipes</h2>
-            </div>
-            <div>
-                <div>
-                    <h3>CHOCOLATE CHIP COOKIE DOUGH BROWNIES</h3>
-                    <p>
-                        <em>posted by</em> brownielover <em>on</em> April 29, 2017
-                    </p>
-                    <img src="brownie-03.jpg" alt=brownie3>
-                    <p>
-                        <em>Chewy walnut brownies topped with cookie dough, what's not to love?</em>
-                    </p>
+        <section name="recipes" class="recipes">
+            <h2>Recipes</h2>
+            <article >
+                <h3>CHOCOLATE CHIP COOKIE DOUGH BROWNIES</h3>
+                <div class="details">
+                    <p><em>posted by</em> brownielover <em>on</em> April 29, 2017</p>
+                    <p><em>Chewy walnut brownies topped with cookie dough, what's not to love?</em></p>
                 </div>
-                <div>
-                    <div>
+            
+                    <img id="brownierecipeimg" src="brownie-03.jpg" alt=brownie3>
+                    <div id="ingredients">
                         <h4>INGREDIENTS</h4>
                         <h5>For the Brownie</h5>
                         <ul>
@@ -69,7 +54,7 @@
                             <li>1 cup miniature semisweet chocolate chips</li>
                         </ul>
                     </div>
-                    <div>
+                    <div id="directions">
                         <h4>DIRECTIONS</h4>
                         <ol>
                             <li>
@@ -89,8 +74,7 @@
                             </li>
                         </ol>
                     </div>
-                </div>  
-            </div>
+            </article>
         </section>
     </body>
 </html>
