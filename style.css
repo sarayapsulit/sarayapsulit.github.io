@@ -61,11 +61,16 @@ nav li {
     margin-left:10px;
 }
 a {
-     text-decoration: none;     
+     text-decoration: none;  
+    
 }
  .nav:link, .nav:visited {
     color:white
 }
+#footerlink:link, #footerlink:visited {
+    color: #606060 ;
+}
+
 /*----- Main ------ */
 h2 {
     left: 50%;
@@ -143,7 +148,23 @@ h4 {
     padding-bottom: 30px}
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 500px) 
+   {
+ 
+    #brownieblogpostimg, .brownieblogpost, #brownierecipeimg, #ingredients {
+    display: block;
+    width: 100%;
+   }
+    nav li {
+        font-size: 25px
+    }
+    
+}
+
+@media screen and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+    {
  
     #brownieblogpostimg, .brownieblogpost, #brownierecipeimg, #ingredients {
     display: block;
